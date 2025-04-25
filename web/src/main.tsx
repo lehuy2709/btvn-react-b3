@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 // import App from './App.tsx'
 import Product from './pages/Product/index.tsx';
-import Employee from './pages/Employee/index.tsx';
+// import Employee from './pages/Employee/index.tsx';
 
 import {
   createBrowserRouter,
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     element: <Product></Product>,
   }, {
     path: "/employee",
-    element: <Employee></Employee>,
+    // element: <Employee></Employee>,
   }
 ]);
 
